@@ -16,11 +16,22 @@ slideshowDivs()
 
 const divs = document.querySelectorAll('.slideshow div')
 
+let a = 1
+
 const slideshow = () => {
     setInterval(() => {
+        a++
+
         const div = document.querySelector('.slideshow .change')
         div.classList.remove('change')
-        div.nextElementSibling.classList.add('change')
+
+        if(a < div.length){
+            div.nextElementSibling.classList.add('change')
+        } else {
+            divs[0].classList.add('change')
+            a = 1
+        }
+
     }, 1000)
 }
 
