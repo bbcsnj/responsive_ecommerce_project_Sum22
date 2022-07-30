@@ -23,9 +23,10 @@ const slideshow = () => {
         a++
 
         const div = document.querySelector('.slideshow .change')
+        
         div.classList.remove('change')
 
-        if(a < div.length){
+        if(a < divs.length){
             div.nextElementSibling.classList.add('change')
         } else {
             divs[0].classList.add('change')
