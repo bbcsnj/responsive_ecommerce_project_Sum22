@@ -98,7 +98,7 @@ your CSS.
     transition: transform 0.5s;
 }
 
-.navbar-link::hover {
+.navbar-link:hover {
     transform: scale(1.5);
 }
 /* End of Navbar */
