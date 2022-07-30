@@ -6,11 +6,25 @@ const slideshowDivs = () => {
 
         div.style.backgroundImage = `url(images/slideshow/section-1-bg-${i}.jpg)`
 
+        i === 1 && div.classList.add('change')
+
         document.querySelector('.slideshow').appendChild(div)
     }
 }
 
 slideshowDivs()
+
+const divs = document.querySelectorAll('slideshow div')
+
+const slideshow = () => {
+    setInterval(() =>{
+        const div = document.querySelector('slideshow .change')
+        div.classList.remove('change')
+        div.nextElementSibling.classList.add('change')
+    }, 1000)
+}
+
+slideshow()
 
 // End of Slideshow
 
