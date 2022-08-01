@@ -210,7 +210,7 @@ your CSS.
     position: absolute;
     bottom: -15rem;
     left: 50%;
-    transform: translatex(-50%);
+    transform: translateX(-50%);
     width: 10rem;
 }
 /* End of Controls */
