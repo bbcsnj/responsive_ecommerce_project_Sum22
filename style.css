@@ -205,6 +205,15 @@ your CSS.
     transform: rotateY(180deg);
 }
 
+/* Controls */
+.controls {
+    position: absolute;
+    bottom: -15rem;
+    left: 50%;
+    transform: translatex(-50%);
+}
+/* End of Controls */
+
 /* End of Cube */
 
 /* Banner */
