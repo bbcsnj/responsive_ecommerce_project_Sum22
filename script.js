@@ -2,6 +2,8 @@
 let x = 0
 let y = 0
 let z = 0
+let bool = true
+let interval;
 
 const cube = document.querySelector('.cube')
 
@@ -30,9 +32,13 @@ document.querySelector('.bottom-z-control').addEventListener('click', () => {
 })
 
 const playPause = () => {
-    setInterval(() => {
-        cube.style.transform = `rotateX(${x}deg) rotateY(${y++}deg) rotateZ(${z}deg)`
-    }, 100)
+    if(bool) {
+        setInterval(() => {
+            cube.style.transform = `rotateX(${x}deg) rotateY(${y++}deg) rotateZ(${z}deg)`
+        }, 100)
+    } else {
+        clearInterval(interval)
+    }
 }
 
 playPause()
