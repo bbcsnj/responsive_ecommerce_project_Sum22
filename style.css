@@ -113,6 +113,8 @@ your CSS.
     height: 55rem;
     transform-style: preserve-3d;
     transform: rotateY(70deg);
+    position: relative;
+    top: -2rem;
 }
 
 .front-side, 
