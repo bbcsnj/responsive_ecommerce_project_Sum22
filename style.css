@@ -264,6 +264,11 @@ your CSS.
     font-size: 1.5rem;
     color: var(--primary-color);
     opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.controls a:hover i {
+    opacity: 1;
 }
 /* End of Controls */
 
