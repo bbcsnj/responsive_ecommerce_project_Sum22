@@ -115,6 +115,7 @@ your CSS.
 /*    transform: rotateY(70deg); */
     position: relative;
     top: -2rem;
+    transition: transform 0.5s;
 }
 
 .front-side, 
