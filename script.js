@@ -31,11 +31,11 @@ document.querySelector('.bottom-z-control').addEventListener('click', () => {
 
 const playPause = () => {
     setInterval(() => {
-        cube.style.transform = `rotateY(${y++}deg)`
+        cube.style.transform = `rotateX(${x}deg) rotateY(${y++}deg) rotateZ(${z}deg)`
     }, 100)
 }
 
-//playPause()
+playPause()
 
 // End of Cube
 
