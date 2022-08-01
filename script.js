@@ -55,12 +55,6 @@ addEventListener('mouseout', () => {
     playPause()
 })
 
-/*document.querySelector('.controls').
-addEventListener('mouseout', () => {
-    bool = true
-    playPause()
-})*/
-
 // End of Cube
 
 // Slideshow
