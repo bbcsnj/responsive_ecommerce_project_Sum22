@@ -43,13 +43,13 @@ const playPause = () => {
 
 playPause()
 
-/*document.querySelector('.controls').
+document.querySelector('.controls').
 addEventListener('mouseover', () => {
     bool = false
     playPause()
 })
 
-document.querySelector('.controls').
+/*document.querySelector('.controls').
 addEventListener('mouseout', () => {
     bool = true
     playPause()
