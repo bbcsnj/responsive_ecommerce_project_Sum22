@@ -33,7 +33,7 @@ document.querySelector('.bottom-z-control').addEventListener('click', () => {
 
 const playPause = () => {
     if(bool) {
-        setInterval(() => {
+        interval = setInterval(() => {
             cube.style.transform = `rotateX(${x}deg) rotateY(${y++}deg) rotateZ(${z}deg)`
         }, 100)
     } else {
@@ -46,6 +46,12 @@ playPause()
 document.querySelector('.controls').
 addEventListener('mouseover', () => {
     bool = false
+    playPause()
+})
+
+document.querySelector('.controls').
+addEventListener('mouseout', () => {
+    bool = true
     playPause()
 })
 
