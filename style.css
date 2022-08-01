@@ -212,6 +212,10 @@ your CSS.
     left: 50%;
     transform: translateX(-50%);
     width: 10rem;
+    height: 10rem;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 50%;
+    border: 1rem solid rgba(0,0,0,0.8);
 }
 /* End of Controls */
 
