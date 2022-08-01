@@ -211,6 +211,7 @@ your CSS.
     bottom: -15rem;
     left: 50%;
     transform: translatex(-50%);
+    width: 10rem;
 }
 /* End of Controls */
 
