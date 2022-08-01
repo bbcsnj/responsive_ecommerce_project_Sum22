@@ -208,7 +208,7 @@ your CSS.
 /* Controls */
 .controls {
     position: absolute;
-    bottom: -15rem;
+    bottom: -35rem;
     left: 50%;
     transform: translateX(-50%);
     width: 10rem;
