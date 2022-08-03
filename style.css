@@ -581,6 +581,11 @@ NOTE: For Grid containers you can use max-content. For example:
     flex-direction: column;
 }
 
+.change .loading{
+    opacity: 0;
+    transition: 1s 5s;
+}
+
 .loading i {
     font-size: 10rem;
     color: var(--white-color);
@@ -617,6 +622,11 @@ NOTE: For Grid containers you can use max-content. For example:
     width: 70rem;
     text-align: center;
     opacity: 0;
+}
+
+.change .macbook-info {
+    opacity: 1;
+    transition: opacity 1s 6s;
 }
 
 .macbook-info-heading {
