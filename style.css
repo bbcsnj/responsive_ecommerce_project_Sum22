@@ -675,6 +675,7 @@ NOTE: For Grid containers you can use max-content. For example:
     position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .watches > div {
