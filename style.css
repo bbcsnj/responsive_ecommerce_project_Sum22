@@ -391,6 +391,7 @@ your CSS.
     margin-bottom: 5rem;
 }
 
+/*
 .section-2-heading::before{
     content: "";
     width: 130%;
@@ -404,6 +405,7 @@ your CSS.
     z-index: -1;
     border-radius: 1rem;
 }
+*/
 /* End of Section 2 Heading */
 
 
