@@ -549,16 +549,49 @@ NOTE: For Grid containers you can use max-content. For example:
     width: 60%;
     height: 85%;
     background: linear-gradient(
-    rgba(255,255,255,0.4),
-    rgba(255,255,255,0.4)),
+    rgba(255,255,255,0.6),
+    rgba(255,255,255,0.6)),
     url(images/MacBook/macbook-1-desktop.png) center no-repeat;
     z-index: -1;
+}
+
+.loading {
+    display: none;
 }
 /* End of Section 3 Loading */
 
 /* Section 3 Info */
 .macbook-info {
     position: absolute;
+    width: 70rem;
+    text-align: center;
+}
+
+.macbook-info-heading {
+    font-size: 6rem;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.macbook-price {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin: 3rem 0;
+}
+
+.macbook-btn {
+    width: 25rem;
+    height: 5rem;
+    background-image: linear-gradient(#ddd, #fff);
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #fff,
+    -0.1rem -0.1rem 0.1rem #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    color: var(--primary-color);
+    cursor: pointer;
 }
 /* End of Section 3 Info */
 
