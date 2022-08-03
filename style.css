@@ -414,7 +414,7 @@ your CSS.
     height: 60vh;
     width: 50vw;
     background-image: linear-gradient(var(--white-color), var(--primary-color), var(--white-color));
-    filter: drop-shadow(-2rem -2rem 2rem white);
+    filter: drop-shadow(inset 2rem 2rem 2rem white);
     border-radius: 0.5rem;
 }
 
