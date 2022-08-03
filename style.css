@@ -414,6 +414,7 @@ your CSS.
     height: 60vh;
     width: 50vw;
     background-image: linear-gradient(var(--white-color), var(--primary-color), var(--white-color));
+    filter: blur(1rem);
     border-radius: 0.5rem;
 }
 
