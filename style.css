@@ -661,3 +661,42 @@ NOTE: For Grid containers you can use max-content. For example:
 /* End of Section 3 Content */
 
 /* End of Section 3 */
+
+/* Section 4 */
+.section-4 {
+    height: 140vh;
+    padding: 20vh 0;
+    flex-direction: column;
+}
+
+/* Section 4 Watches */
+/* > Child Selector of divs */
+.watches {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.watches > div {
+    position: absolute;
+}
+/* Watch Bands */
+.watch-band-img {
+    width: 35rem;
+    height: 35rem;
+    object-fit: contain;
+}
+/* End of Watch Bands */
+/* Watch Cases */
+.watch-cases {
+    flex-direction: column;
+}
+.watch-case-img {
+    width: 35rem;
+    height: 35rem;
+    object-fit: contain;
+}
+/* End of Watch Cases */
+/* End of Section 4 Watches */
+
+/* End of Section 4 */
