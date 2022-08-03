@@ -600,9 +600,14 @@ NOTE: For Grid containers you can use max-content. For example:
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 0;
     height: 100%;
     background-color: var(--white-color);
+}
+
+.change .progress-bar::after {
+    width: 100%;
+    transition: width 1s 3s;
 }
 /* End of Section 3 Loading */
 
