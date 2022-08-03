@@ -548,9 +548,10 @@ NOTE: For Grid containers you can use max-content. For example:
     top: 6%;
     width: 60%;
     height: 85%;
-    background: linear-gradient(rgba(255,255,255,0.4),
+    background: linear-gradient(
     rgba(255,255,255,0.4),
-    url(images/MacBook/macbook-1-desktop.png) center no-repeat);
+    rgba(255,255,255,0.4)),
+    url(images/MacBook/macbook-1-desktop.png) center no-repeat;
     z-index: -1;
 }
 /* End of Section 3 Loading */
