@@ -692,6 +692,7 @@ NOTE: For Grid containers you can use max-content. For example:
 /* Watch Cases */
 .watch-cases {
     flex-direction: column;
+    transition: margin-top 1s;
 }
 .watch-case-img {
     width: 35rem;

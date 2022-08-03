@@ -1,3 +1,13 @@
+// Common JS
+
+document.querySelectorAll('.watch-control, .controls a').forEach(control => {
+    control.addEventListener('click', e => {
+        e.preventDefault()
+    })    
+})
+
+// End of Common JS
+
 // Cube
 let x = 0
 let y = 20
@@ -108,3 +118,26 @@ window.addEventListener('scroll', () => {
     }
 })
 // End of Section 3
+
+// Section 4
+
+const watchBands = document.querySelector('.watch_bands')
+const watchCases = document.querySelector('.watch-cases')
+
+const watchTopControl = document.querySelector('watch-top-control')
+const watchRightControl = document.querySelector('watch-right-control')
+const watchBottomControl = document.querySelector('watch-bottom-control')
+const watchLeftControl = document.querySelector('watch-left-control')
+
+let axisY = 0
+let axisX = 0
+
+watchTopControl.addEventListener('click', () =>{
+    watchCases.style.marginTop = `${axisY -= 70} rem`
+})
+
+watchBottomControl.addEventListener('click', () =>{
+    watchCases.style.marginTop = `${axisY += 70} rem`
+})
+
+// End of Section 4
