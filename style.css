@@ -556,7 +556,36 @@ NOTE: For Grid containers you can use max-content. For example:
 }
 
 .loading {
-    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--black-color);
+    flex-direction: column;
+}
+
+.loading i {
+    font-size: 10rem;
+    color: var(--white-color);
+    margin-bottom: 2rem;
+}
+
+.progress-bar {
+    width: 22rem;
+    height: 0.3rem;
+    background-color: #888;
+    border-radius: 5rem;
+}
+
+.progress-bar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: var(--white-color);
 }
 /* End of Section 3 Loading */
 
@@ -565,6 +594,7 @@ NOTE: For Grid containers you can use max-content. For example:
     position: absolute;
     width: 70rem;
     text-align: center;
+    opacity: 0;
 }
 
 .macbook-info-heading {
