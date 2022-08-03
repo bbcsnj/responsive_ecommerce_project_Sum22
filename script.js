@@ -132,19 +132,31 @@ const watchLeftControl = document.querySelector('.watch-left-control')
 let axisY = 0
 let axisX = 0
 
+const hideControl = () => {
+    if(axisY === -280){
+        watchTopControl.classList.add('hideControl')
+    } else {
+        watchTopControl.classList.remove('hideControl')        
+    }
+}
+
 watchTopControl.addEventListener('click', () => {
     watchCases.style.marginTop = `${axisY -= 70}rem`
+    hideControl()
 })
 
 watchBottomControl.addEventListener('click', () => {
     watchCases.style.marginTop = `${axisY += 70}rem`
+    hideControl()
 })
 
 watchRightControl.addEventListener('click', () => {
     watchBands.style.marginRight = `${axisX += 70}rem`
+    hideControl()
 })
 
 watchLeftControl.addEventListener('click', () => {
     watchBands.style.marginRight = `${axisX -= 70}rem`
+    hideControl()
 })
 // End of Section 4

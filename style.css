@@ -714,6 +714,11 @@ NOTE: For Grid containers you can use max-content. For example:
     border-radius: 5rem;
 }
 
+.hideControl {
+    opacity: 0;
+    visibility: hidden;
+}
+
 .watch-control i {
     font-size: 3rem;
     color: var(--primary-color);
@@ -744,7 +749,7 @@ NOTE: For Grid containers you can use max-content. For example:
 }
 /* End of Watch Controls */
 
-/* Watch Buton */
+/* Watch Button */
 .watch-btn {
     position: absolute;
     bottom: 30vh;
