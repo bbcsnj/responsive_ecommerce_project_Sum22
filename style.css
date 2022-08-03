@@ -370,3 +370,106 @@ your CSS.
 /* End of Slideshow */
 
 /* End of Section 1 */
+
+/* Section 2 */
+.section-2 {
+    width: 100%;
+    height: 120vh;
+    padding: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Section 2 Heading */
+.section-2-heading {
+    font-size: 10rem;
+    font-weight: 200;
+    color: var(--black-color);
+}
+/* End of Section 2 Heading */
+
+
+/* Section 2 Images */
+.iphones {
+    height: 60vh;
+    width: 50vw;
+}
+
+/* 
+What is inherit?
+The inherit CSS keyword causes the element to take the computed value of the property from its parent element. 
+It can be applied to any CSS property, including the CSS shorthand property all.
+Examples
+Exclude selected elements from a rule
+Make second-level headers green
+#h2 { color: green; }
+Leave those in the sidebar alone so they use their parent's color
+sidebar h2 { color: inherit; }
+In this example, the h2 elements inside the sidebar might be different colors. 
+For example, consider one of them that would by the child of a div matched by the rule:
+div#current { color: blue; }
+Then, it would be blue.
+*/
+
+.iphones img {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+    position: absolute;
+}
+/* End of Section 2 Images */
+
+/* Section 2 Buttons */
+
+/* End of Section 2 Buttons */
+
+.iphone-btns {
+    display: flex;
+}
+
+.iphone-btn {
+    width: 6rem;
+    height: 6rem;
+    background-image: linear-gradient(to right, rgb(51,51,51) 60%, rgb(82,82,82));
+    margin: 0 3rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.iphone-btn::after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    display: block;
+    border: .1rem solid #6edae6;
+    border-radius: 1rem;
+}
+
+/*
+What is max-content?
+max-content
+The max-content sizing keyword represents the intrinsic maximum width or height of the content. 
+For text content this means that the content will not wrap at all even if it causes overflows.
+NOTE: For Grid containers you can use max-content. For example:
+  grid-template-columns: max-content max-content 1fr;
+*/
+
+.iphone-btn span {
+    position: absolute;
+    top: -3rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: var(--primary-color);
+    width: max-content;
+    transform: scale(0);
+}
+
+.iphone-btn:hover span {
+    transform: scale(1);
+}
+
+/* End of Section 2 */
