@@ -709,9 +709,26 @@ NOTE: For Grid containers you can use max-content. For example:
     border-radius: 5rem;
 }
 
+.watch-control i {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
 .watch-top-control {
     top: 22vh;
     left: 50%;
+    transform: translateX(-50%);
+}
+
+.watch-right-control {
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+}
+
+.watch-bottom-control {
+    left: 50%;
+    bottom: 20vh;
     transform: translateX(-50%);
 }
 /* End of Watch Controls */
