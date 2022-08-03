@@ -533,6 +533,7 @@ NOTE: For Grid containers you can use max-content. For example:
     width: 80%;
     flex-direction: column;
     perspective: 1000rem;
+    position: relative;
 }
 
 /* Section 3 Images */
