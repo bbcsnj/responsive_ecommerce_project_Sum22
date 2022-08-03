@@ -132,19 +132,19 @@ const watchLeftControl = document.querySelector('.watch-left-control')
 let axisY = 0
 let axisX = 0
 
-watchTopControl.addEventListener('click', () =>{
+watchTopControl.addEventListener('click', () => {
     watchCases.style.marginTop = `${axisY -= 70} rem`
 })
 
-watchBottomControl.addEventListener('click', () =>{
+watchBottomControl.addEventListener('click', () => {
     watchCases.style.marginTop = `${axisY += 70} rem`
 })
 
-watchRightControl.addEventListener('click', () =>{
+watchRightControl.addEventListener('click', () => {
     watchBands.style.marginRight = `${axisX += 70} rem`
 })
 
-watchLeftControl.addEventListener('click', () =>{
+watchLeftControl.addEventListener('click', () => {
     watchBands.style.marginRight = `${axisX -= 70} rem`
 })
 // End of Section 4
