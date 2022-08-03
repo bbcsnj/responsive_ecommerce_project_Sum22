@@ -683,6 +683,10 @@ NOTE: For Grid containers you can use max-content. For example:
     position: absolute;
 }
 /* Watch Bands */
+.watch-bands {
+    transition: margin-right 1s;
+}
+
 .watch-band-img {
     width: 35rem;
     height: 35rem;
