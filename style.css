@@ -731,5 +731,28 @@ NOTE: For Grid containers you can use max-content. For example:
     bottom: 20vh;
     transform: translateX(-50%);
 }
+
+.watch-left-control {
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+}
 /* End of Watch Controls */
+
+/* Watch Buton */
+.watch-btn {
+    position: absolute;
+    bottom: 30vh;
+    right: 35%;
+    width: 13rem;
+    height: 5rem;
+    background-color: var(--black-color);
+    color: var(--primary-color);
+    border: 0.1rem dashed var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+/* End of Watch Button */
+
 /* End of Section 4 */
