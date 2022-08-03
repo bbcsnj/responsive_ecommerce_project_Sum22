@@ -540,6 +540,16 @@ NOTE: For Grid containers you can use max-content. For example:
 .section-3-content img {
     width: inherit;
 }
+
+.macbook-img-1 {
+    transform: rotateX(-80deg);
+    transform-origin: bottom;
+}
+
+.change .macbook-img-1 {
+    transform: rotateX(0);
+    transition: transform 3s;
+}
 /* End of Section 3 Images */
 
 /* Section 3 Loading */
@@ -553,6 +563,12 @@ NOTE: For Grid containers you can use max-content. For example:
     rgba(255,255,255,0.6)),
     url(images/MacBook/macbook-1-desktop.png) center no-repeat;
     z-index: -1;
+    opacity: 0;
+}
+
+.change .loading-wrapper {
+    opacity: 1;
+    transition: opacity 1s 2s;
 }
 
 .loading {
