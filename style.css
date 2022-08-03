@@ -667,6 +667,7 @@ NOTE: For Grid containers you can use max-content. For example:
     height: 140vh;
     padding: 20vh 0;
     flex-direction: column;
+    position: relative;
 }
 
 /* Section 4 Watches */
@@ -699,5 +700,19 @@ NOTE: For Grid containers you can use max-content. For example:
 }
 /* End of Watch Cases */
 /* End of Section 4 Watches */
+/* Watch Controls */
+.watch-control {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(221, 221, 221, 0.4);
+    border-radius: 5rem;
+}
 
+.watch-top-control {
+    top: 22vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* End of Watch Controls */
 /* End of Section 4 */
