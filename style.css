@@ -1069,6 +1069,10 @@ NOTE: For Grid containers you can use max-content. For example:
     .icon-link img {
         width: 6rem;
     }
+
+    .section-6-icons {
+        flex-wrap: wrap;
+    }
 }
 
 
