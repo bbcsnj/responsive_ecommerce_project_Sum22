@@ -14,6 +14,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 /*  CSS Variables can have a global or local scope.
