@@ -1073,8 +1073,7 @@ NOTE: For Grid containers you can use max-content. For example:
     .section-6-icons {
         flex-wrap: wrap;
         width: 75vw;
-        align-items: center;
-        justify-content: space-around;
+        justify-content: center;
     }
 
 }
