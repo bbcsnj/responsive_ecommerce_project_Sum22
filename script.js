@@ -1,6 +1,6 @@
 // Common JS
 
-document.querySelectorAll('.watch-control, .controls a, .iphon-btn').forEach(control => {
+document.querySelectorAll('.watch-control, .controls a, .iphone-btn').forEach(control => {
     control.addEventListener('click', e => {
         e.preventDefault()
     })    
