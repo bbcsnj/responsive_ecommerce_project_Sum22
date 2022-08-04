@@ -1074,7 +1074,7 @@ NOTE: For Grid containers you can use max-content. For example:
         flex-wrap: wrap;
         width: 75vw;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     }
 
 }
