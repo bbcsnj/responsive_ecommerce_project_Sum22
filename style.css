@@ -1070,6 +1070,7 @@ NOTE: For Grid containers you can use max-content. For example:
         width: 6rem;
     }
 
+    /* My addition for mobile */
     .section-6-icons {
         flex-wrap: wrap;
         width: 75vw;
@@ -1078,4 +1079,4 @@ NOTE: For Grid containers you can use max-content. For example:
 }
 
 
-/* End Resposive */
+/* End Responsive */
