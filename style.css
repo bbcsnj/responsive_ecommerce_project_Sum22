@@ -40,6 +40,10 @@ html {
     align-items: center;
 }
 
+.container {
+    width: 100%;
+}
+
 /* End of Common Styles */
 
 /* Section 1 */
