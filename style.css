@@ -1210,7 +1210,9 @@ NOTE: For Grid containers you can use max-content. For example:
     }
 
     .section-1-banner {
-        position: absolute;
+        display: flex;
+        flex-direction: column;
+        /*position: absolute;*/
     }
 
     .section-1-banner h1 {
