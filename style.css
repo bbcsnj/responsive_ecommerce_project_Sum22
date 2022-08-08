@@ -1124,9 +1124,13 @@ NOTE: For Grid containers you can use max-content. For example:
     }  
 }
 
-@media (max-height: 600px) and (orientation: landscape) {
+@media (max-height: 600px) {
     html {
         font-size: 35%;
+    }
+
+    body {
+        background-color: black;
     }
 
     .logo {
