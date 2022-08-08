@@ -1304,7 +1304,10 @@ NOTE: For Grid containers you can use max-content. For example:
     }
 
     .copyright {
-        margin-top: 1.5rem;
+        position: absolute;
+        bottom: 1rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
     }
 
 }
