@@ -1129,10 +1129,6 @@ NOTE: For Grid containers you can use max-content. For example:
         font-size: 35%;
     }
 
-    body {
-        background-color: black;
-    }
-
 /*    .logo {
         top: 10rem;
         left: 50%;
