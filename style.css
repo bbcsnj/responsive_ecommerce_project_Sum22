@@ -495,7 +495,7 @@ NOTE: For Grid containers you can use max-content. For example:
 
 .iphone-btn span {
     position: absolute;
-    bottom: 3rem;
+    bottom: -3rem;
     font-size: 1.6rem;
     font-weight: 400;
     text-transform: uppercase;
