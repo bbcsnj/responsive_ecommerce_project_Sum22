@@ -449,13 +449,13 @@ Then, it would be blue.
     opacity: 0;
 }
 
-.iphones:hover .iphone-img-1 {
+/*.iphones:hover .iphone-img-1 {
     opacity: 0;
 }
 
 .iphones:hover .iphone-img-2 {
     opacity: 1;
-}
+}*/
 /* End of Section 2 Images */
 
 /* Section 2 Buttons */
@@ -1105,7 +1105,13 @@ NOTE: For Grid containers you can use max-content. For example:
             30% 0
           );    
     }
+    .iphones:hover .iphone-img-1 {
+        opacity: 0;
+    }
     
+    .iphones:hover .iphone-img-2 {
+        opacity: 1;
+    }    
 }
 
 /* targets only devices that don’t hover */
