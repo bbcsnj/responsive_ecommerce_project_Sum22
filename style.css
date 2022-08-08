@@ -1124,7 +1124,7 @@ NOTE: For Grid containers you can use max-content. For example:
     }  
 }
 
-@media all and (max-height: 600px) and (min-height : 1px) and (min-width:1px) {
+@media (max-height: 600px) {
     html {
         font-size: 35%;
     }
