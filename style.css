@@ -1215,8 +1215,19 @@ NOTE: For Grid containers you can use max-content. For example:
     }
 
     .section-1-banner {
+        position: absolute; 
+        left: 0; 
+        right: 0;
+        top: 0;
+        bottom: 0; 
+        margin-left: auto; 
+        margin-right: auto;  
+        margin-top: auto;
+        margin-bottom: auto;     
+        /*
         position: absolute;
         top: 5.5rem;
+        */
     }
 
     .section-1-banner h1 {
