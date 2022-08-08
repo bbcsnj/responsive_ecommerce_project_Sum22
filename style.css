@@ -1296,7 +1296,7 @@ NOTE: For Grid containers you can use max-content. For example:
     }
 
     .section-1-banner {
-        padding-top: 1rem;
+        margin-top: 2rem;
     }
 
 }
