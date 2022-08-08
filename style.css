@@ -1285,6 +1285,7 @@ NOTE: For Grid containers you can use max-content. For example:
     .navbar-link {
         margin: 0 1.5rem;
         font-size: 2rem;
+        z-index: 100;
     }
 
     .section-2-heading {
