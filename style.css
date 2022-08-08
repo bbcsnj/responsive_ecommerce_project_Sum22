@@ -904,7 +904,7 @@ NOTE: For Grid containers you can use max-content. For example:
     }
 }
 
-@media (max-width: 700px) and  (min-height: 601px) {
+@media (max-width: 700px) {
     .logo {
         top: 0;
         left: 2rem;
@@ -983,7 +983,7 @@ NOTE: For Grid containers you can use max-content. For example:
     }
 }
 
-@media (max-width: 550px) and  (min-height: 601px) {
+@media (max-width: 550px) {
     .navbar-link {
         margin: 0 1.5rem;
     }
@@ -1016,7 +1016,7 @@ NOTE: For Grid containers you can use max-content. For example:
     }
 }
 
-@media (max-width: 450px) and  (min-height: 601px) {
+@media (max-width: 450px) {
     html {
         font-size: 35%;
     }
@@ -1124,7 +1124,7 @@ NOTE: For Grid containers you can use max-content. For example:
     }  
 }
 
-@media (max-height: 600px) {
+@media (max-height: 600px) and (orientation: landscape) {
     html {
         font-size: 35%;
     }
