@@ -40,10 +40,6 @@ html {
     align-items: center;
 }
 
-.container {
-    width: 100%;
-}
-
 /* End of Common Styles */
 
 /* Section 1 */
@@ -349,7 +345,7 @@ your CSS.
 /* Slideshow */
 
 .slideshow {
-    width: 100%;
+    width: 110%;
     height: 100%;
     position: absolute;
     top: 0;
