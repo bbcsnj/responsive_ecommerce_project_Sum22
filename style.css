@@ -1154,6 +1154,11 @@ NOTE: For Grid containers you can use max-content. For example:
         text-align: center;
     }
 
+    .section-1-banner span {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
     .iphones {
         width: 75vw;
     }
