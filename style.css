@@ -1303,6 +1303,10 @@ NOTE: For Grid containers you can use max-content. For example:
         width: 8rem;
     }
 
+    .copyright {
+        margin-top: 1.5rem;
+    }
+
 }
   
   
