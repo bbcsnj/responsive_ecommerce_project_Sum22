@@ -1125,7 +1125,7 @@ NOTE: For Grid containers you can use max-content. For example:
     }  
 }
   
-@media (max-height: 560px) {
+@media screen and (max-height: 560px) {
     html {
         font-size: 35%;
     }
