@@ -505,9 +505,9 @@ NOTE: For Grid containers you can use max-content. For example:
     transform: scale(0);
 }
 
-.iphone-btn:hover span {
+/*.iphone-btn:hover span {
     transform: scale(1);
-}
+}*/
 
 /* End of Section 2 */
 
@@ -1111,6 +1111,10 @@ NOTE: For Grid containers you can use max-content. For example:
     
     .iphones:hover .iphone-img-2 {
         opacity: 1;
+    } 
+
+    .iphone-btn:hover span {
+        transform: scale(1);
     }    
 }
 
