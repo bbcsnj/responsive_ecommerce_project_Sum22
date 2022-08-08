@@ -1184,7 +1184,25 @@ NOTE: For Grid containers you can use max-content. For example:
         flex-wrap: wrap;
         width: 75vw;
     }  
-    
+    .navbar-link {
+        margin: 0 1.5rem;
+    }
+
+    .section-2-heading {
+        font-size: 8rem;
+    }
+
+    .macbook-btn {
+        width: 15rem;
+        height: 3rem;
+        font-size: 1.3rem;
+    }
+
+    .airpods-buttons {
+        width: 50rem;
+        text-align: center;
+    }
+  
 }
   
   
