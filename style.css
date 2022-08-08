@@ -354,7 +354,7 @@ your CSS.
 }
 
 .slideshow div{
-    width: 100%;
+    width: 110%;
     height: 100%;
     position: absolute;
     background-size: cover;
