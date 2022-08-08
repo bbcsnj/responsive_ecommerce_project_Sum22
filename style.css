@@ -1124,7 +1124,9 @@ NOTE: For Grid containers you can use max-content. For example:
 
 /* targets only devices that don’t hover */
 @media (hover: none){
-
+    .iphone-btn span {
+        transform: scale(1);
+    }  
 }
   
 @media (max-height: 560px) {
