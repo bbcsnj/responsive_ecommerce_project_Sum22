@@ -859,7 +859,6 @@ NOTE: For Grid containers you can use max-content. For example:
 /* End of Section 6 */
 
 /* Responsive */
-/*
 @media (max-width: 1500px){
     html {
         font-size: 45%;
@@ -1079,7 +1078,6 @@ NOTE: For Grid containers you can use max-content. For example:
 
 }
 
-*/
 /* End Responsive */
 
 /* targets only devices that can hover */
