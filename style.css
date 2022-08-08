@@ -99,9 +99,9 @@ your CSS.
     transition: transform 0.5s;
 }
 
-.navbar-link:hover {
+/*.navbar-link:hover {
     transform: scale(1.5);
-}
+} */
 /* End of Navbar */
 
 /* Cube */
@@ -269,9 +269,9 @@ your CSS.
     transition: opacity 0.5s;
 }
 
-.controls a:hover i {
+/* .controls a:hover i {
     opacity: 1;
-}
+} */
 /* End of Controls */
 
 /* End of Cube */
@@ -325,7 +325,7 @@ your CSS.
     transition: clip-path 0.5s;
 }
 
-.section-1-banner button:hover {
+/*.section-1-banner button:hover {
     clip-path: polygon(
         40% 15%,
         77% 15%,
@@ -338,7 +338,7 @@ your CSS.
         0 50%,
         30% 0
       );    
-}
+}*/
 
 /* End of Banner */
 
@@ -1080,3 +1080,42 @@ NOTE: For Grid containers you can use max-content. For example:
 
 
 /* End Responsive */
+
+/* targets only devices that can hover */
+@media (hover: hover){
+    .navbar-link:hover {
+        transform: scale(1.5);
+    }
+
+    .controls a:hover i {
+        opacity: 1;
+    }    
+
+    .section-1-banner button:hover {
+        clip-path: polygon(
+            40% 15%,
+            77% 15%,
+            100% 10%,
+            100% 90%,
+            75% 85%,
+            40% 85%,
+            30% 100%,
+            0 50%,
+            0 50%,
+            30% 0
+          );    
+    }
+    
+}
+
+/* targets only devices that don’t hover */
+@media (hover: none){
+
+}
+  
+@media (max-height: 560px) {
+  
+    
+}
+  
+  
